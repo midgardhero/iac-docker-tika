@@ -9,6 +9,7 @@ RUN apt-get update \
     libsystemd0=245.4-4ubuntu3.13 \
     libudev1=245.4-4ubuntu3.13 \
     tesseract-ocr-por=1:4.00~git30-7274cfa-1 \
+    OpenJDK=17.0.3+7-0ubuntu0.20.04.1 \ 
     libexpat1=2.2.9-1ubuntu0.4 \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
