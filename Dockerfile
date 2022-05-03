@@ -1,6 +1,6 @@
 ARG TIKA_VERSION
 
-FROM apache/tika:$TIKA_VERSION
+FROM midgardhero/tika:$TIKA_VERSION
 
 RUN apt-get update \
     && apt-get -y --no-install-recommends install \
