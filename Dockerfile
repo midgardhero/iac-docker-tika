@@ -2,6 +2,8 @@ ARG TIKA_VERSION
 
 FROM midgardhero/tika:$TIKA_VERSION
 
+USER root
+
 RUN apt-get update \
     && apt-get -y --no-install-recommends install \
     openssl=1.1.1f-1ubuntu2.12 \
