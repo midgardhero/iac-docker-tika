@@ -14,3 +14,5 @@ RUN apt-get update \
     libexpat1=2.2.9-1ubuntu0.4 \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    
+USER 35002:35002
